@@ -1,9 +1,37 @@
 html {
-  height: 100%;
+  height: 80%;
 }
 
 body {
-  margin: 0;
+  margin: 5rem;
   min-height: 100%;
   font: 16px / 1 sans-serif;
+  background-color: lightgreen;
+}
+
+.choice button {
+  display: none;
+}
+
+.player1 .choice {
+  display: none;
+}
+
+.player1.choice .choice {
+  display: block;
+}
+
+.player1.choice-made .choice {
+  display: block;
+}
+.player2 .choice {
+  display: none;
+}
+
+.player2.choice .choice {
+  display: block;
+}
+
+.player2.choice-made .choice {
+  display: block;
 }
